@@ -8,7 +8,7 @@ import java.io.File;
 public class CreateFile {
     public static void main(String args[]){
         try{
-            File f = new File("F:\\JavaProjects\\StreamsIO\\testfile.txt");
+            File f = new File("F:\\JavaProjects\\StreamsIO\\testfile2.txt");
             if(f.createNewFile()){
                 System.out.print("File Created");
             }

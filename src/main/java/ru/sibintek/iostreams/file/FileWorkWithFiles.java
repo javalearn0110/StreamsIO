@@ -23,9 +23,7 @@ public class FileWorkWithFiles {
             System.out.println("File can be read");
         } else {
             System.out.println("File can not be read");
-
         }
-
         if (myFile.canWrite()) {
             System.out.println("File can be written");
         } else {

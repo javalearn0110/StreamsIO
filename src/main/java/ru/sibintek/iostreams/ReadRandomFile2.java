@@ -13,7 +13,7 @@ public class ReadRandomFile2 {
             RandomAccessFile rndFile = new RandomAccessFile(fdfile, "r");
 
             String str = "";
-            rndFile.seek(10);
+            rndFile.seek(1);
 
 
             while ((str = rndFile.readLine()) != null) {
